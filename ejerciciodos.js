@@ -56,3 +56,5 @@ const litrosConsumidos= litrosConsumo(kmConsumo);
 const valorCosumido= calcularGasto(valorLitro,litrosConsumidos);
 console.log('El precio del litro de nafta'+' '+ valorCosumido);
 
+
+
