@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Semantico</title>
+</head>
+<body>
+
+
+    <section class="select-container">
+        <label htmlFor="mes">Mes de cumpleaños</label>
+       <select name='Mes' id="mes">
+    
+  
+        <option value="Enero"> 1 </option>
+        <option value="Febrero"> 2 </option>
+        <option value="Marzo"> 3</option>
+        <option value="Abril"> 4 </option>
+        <option value="Mayo"> 5</option>
+        <option value="Junio"> 6 </option>
+        <option value="Julio"> 7 </option>
+        <option value="Agosto"> 8 </option>
+        <option value="Septiembre"> 9</option>
+        <option value="Octubre"> 10</option>
+        <option value="Noviembre"> 11 </option>
+        <option value="Diciembre"> 12 </option>
+       </select>
+       </section>
+  
+  
+       <form action="submit" className="formulario">
+      <label htmlFor="comentBox" id="comentbox">
+        Dejá tu comentario
+      </label>
+  
+        <textarea type="text-area" rows="10" cols="30" placeholder="comentarios por aqui..." id="coment-zone"></textarea> 
+  
+        <!-- <button onclick="deleteText()">Eliminar</button> -->
+        <button type="">Enviar</button>
+        <button type="reset" > Eliminar</button>
+       </form>
+     
+
+
+       <!-- forma JS manipular DOM -->
+      <!--   <script>
+          function deleteText(){
+            event.preventDefault()
+
+            document.getElementById('coment-zone').value="";
+          }
+        </script> -->
+    
+</body>
+</html>
